@@ -10,9 +10,9 @@ export function Header() {
                 <ImageSquare color='white' size={25} weight='regular'/>
             </View>
             <View style={styles.headerFirstLineIcons}>
-                <Eye color='white' size={25} weight='regular'/>
-                <Question color='white' size={25} weight='regular'/>
-                <AntDesign name="adduser" size={22} color="white"/>
+                <Eye color='white' size={23} weight='regular'/>
+                <Question color='white' size={23} weight='regular'/>
+                <AntDesign name="adduser" size={21} color="white"/>
             </View>
         </View>
         <View style={styles.headerSecondLine}>
@@ -46,12 +46,12 @@ const styles = StyleSheet.create({
     },
     headerFirstLineIcons: {
         flexDirection: 'row',
-        gap: 13
+        gap: 17
     },
     headerSecondLineText: {
         color: 'white',
         fontWeight: '700',
-        fontSize: 18
+        fontSize: 20
     },
     headerSecondLine: {
         marginBottom: 22,
