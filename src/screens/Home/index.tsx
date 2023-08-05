@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Header } from './components/Header';
 import { Account } from './components/Account';
 import { RoundedOptions } from './components/RoundedOptions';
+import { MyCards } from './components/MyCards';
 
 export function Home() {
     return (
@@ -9,6 +10,7 @@ export function Home() {
         <Header/>
         <Account/>
         <RoundedOptions/>
+        <MyCards/>
       </View>
     );
 }

@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     roundedOptionsBackground: {
         flexDirection: 'column',
         alignItems: 'center',
-        height: 110,
+        height: 116,
         width: 70,
         textAlign: 'center',
         marginRight: 15
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
         color: '#FFF',
         textAlign: 'center',
         fontWeight: '500',
-        fontSize: 14
+        fontSize: 15
     },
 
 });
