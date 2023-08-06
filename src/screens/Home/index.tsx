@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { Account } from './components/Account';
 import { RoundedOptions } from './components/RoundedOptions';
 import { MyCards } from './components/MyCards';
+import { ServicesAnnouncements } from './components/ServicesAnnouncements';
 
 export function Home() {
     return (
@@ -11,6 +12,7 @@ export function Home() {
         <Account/>
         <RoundedOptions/>
         <MyCards/>
+        <ServicesAnnouncements/>
       </View>
     );
 }
