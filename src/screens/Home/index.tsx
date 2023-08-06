@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
     },
     scrollContainer: {
       flex: 1,
+      marginBottom: 14
     },
     navbarContainer: {
       position: 'absolute',

@@ -7,7 +7,7 @@ const stylesServices = StyleSheet.create({
         paddingTop: 20,
         gap: 3,
         borderTopWidth: 3,
-        borderColor: '#222222'
+        borderColor: '#222222',
     },
     discoverMoreBackground: {
         backgroundColor: '#222222',

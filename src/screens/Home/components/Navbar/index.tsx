@@ -1,26 +1,45 @@
+import { ArrowsDownUp, CurrencyDollarSimple, Handbag, HandbagSimple, Tote } from "phosphor-react-native";
 import { View, StyleSheet, Text } from "react-native";
+import { SimpleLineIcons } from '@expo/vector-icons';
 
 export function Navbar() {
     return (
-      <View>
+      <View style={styles.navbar}>
         <View style={styles.navbarContent}>
-
+            <View style={styles.navbarContentIconBackground}>
+                <ArrowsDownUp color="#848389" weight="bold"/>
+            </View>
+            <CurrencyDollarSimple color="#b8b6c1" weight="bold"/>
+            <HandbagSimple color="#b8b6c1" weight="bold"/>
         </View>
       </View>
     );
 }
 
 const styles = StyleSheet.create({
-    // navbar: {
-    //     height: 50,
-    //     width: '100%',
-    //     alignItems: 'center',
-    //     backgroundColor: "rgba(34, 34, 34, 0)"
-    // },
+    navbar: {
+        width: '100%',
+        alignItems: 'center',
+        marginBottom: 10,
+    },
     navbarContent: {
         backgroundColor: '#222222',
+        height: 55,
+        width: 170,
+        opacity: 0.9,
+        borderRadius: 50,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        paddingRight: 15
+    },
+    navbarContentIconBackground: {
+        backgroundColor: '#591e8c',
+        borderRadius: 50,
         height: 50,
-        width: 200,
-        opacity: 0.8
-    }
-});
+        width: 55,
+        marginLeft: 5,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+})
