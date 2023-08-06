@@ -8,34 +8,12 @@ import { CreditCard } from './components/CreditCard';
 import { Loan } from './components/Loan';
 import { PaymentAssistant } from './components/PaymentAssistant';
 import { DiscoverMore } from './components/DiscoverMore';
-
-const data = [
-  {
-    component: <Header/>
-  },
-  {
-    component: <Account/>
-  },
-  {
-    component: <RoundedOptions/>
-  },
-  {
-    component: <MyCards/>
-  },
-  {
-    component: <ServicesAnnouncements/>
-  },
-  {
-    component: <CreditCard/>
-  },
-  {
-    component: <Loan/>
-  },
-]
+import { Navbar } from './components/Navbar';
 
 export function Home() {
     return (
-        <ScrollView style={styles.container}>
+      <View style={styles.container}>
+        <ScrollView style={styles.scrollContainer}>
           <Header/>
           <Account/>
           <RoundedOptions/>
@@ -46,6 +24,10 @@ export function Home() {
           <PaymentAssistant/>
           <DiscoverMore/>
         </ScrollView>
+        <View style={styles.navbarContainer}>
+          <Navbar/>
+        </View >
+      </View>
     );
 }
 
@@ -53,5 +35,14 @@ const styles = StyleSheet.create({
     container: {
       flex: 1,
       backgroundColor: '#000',
+    },
+    scrollContainer: {
+      flex: 1,
+    },
+    navbarContainer: {
+      position: 'absolute',
+      bottom: 0,
+      left: 0,
+      right: 0,
     },
 });
