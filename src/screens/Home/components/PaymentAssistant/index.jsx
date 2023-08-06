@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
         marginLeft: 13
     },
     paymentAssistantButtonNew: {
-        backgroundColor: '#830AD1',
+        backgroundColor: '#591e8c',
         borderRadius: 7,
         width: 45,
         height: 20,
