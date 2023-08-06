@@ -1,14 +1,14 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import { Header } from './components/Header';
-import { Account } from './components/Account';
-import { RoundedOptions } from './components/RoundedOptions';
-import { MyCards } from './components/MyCards';
-import { ServicesAnnouncements } from './components/ServicesAnnouncements';
-import { CreditCard } from './components/CreditCard';
-import { Loan } from './components/Loan';
-import { PaymentAssistant } from './components/PaymentAssistant';
-import { DiscoverMore } from './components/DiscoverMore';
-import { Navbar } from './components/Navbar';
+import { Header } from '../../components/Header';
+import { Account } from '../../components/Account';
+import { RoundedOptions } from '../../components/RoundedOptions';
+import { MyCards } from '../../components/MyCards';
+import { ServicesAnnouncements } from '../../components/ServicesAnnouncements';
+import { CreditCard } from '../../components/CreditCard';
+import { Loan } from '../../components/Loan';
+import { PaymentAssistant } from '../../components/PaymentAssistant';
+import { DiscoverMore } from '../../components/DiscoverMore';
+import { Navbar } from '../../components/Navbar';
 
 export function Home() {
     return (
