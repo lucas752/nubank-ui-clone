@@ -1,4 +1,4 @@
-import { ImageSquare, Eye, EyeClosed, Question, User } from 'phosphor-react-native';
+import { ImageSquare, Eye, Question} from 'phosphor-react-native';
 import { StyleSheet, Text, View } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 

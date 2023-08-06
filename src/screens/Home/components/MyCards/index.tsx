@@ -1,4 +1,4 @@
-import { CaretRight, CreditCard } from "phosphor-react-native";
+import { CreditCard } from "phosphor-react-native";
 import { View, StyleSheet, Text } from "react-native";
 
 export function MyCards() {

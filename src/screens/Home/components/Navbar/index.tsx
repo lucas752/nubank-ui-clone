@@ -1,6 +1,5 @@
-import { ArrowsDownUp, CurrencyDollarSimple, Handbag, HandbagSimple, Tote } from "phosphor-react-native";
-import { View, StyleSheet, Text } from "react-native";
-import { SimpleLineIcons } from '@expo/vector-icons';
+import { ArrowsDownUp, CurrencyDollarSimple, HandbagSimple } from "phosphor-react-native";
+import { View, StyleSheet } from "react-native";
 
 export function Navbar() {
     return (

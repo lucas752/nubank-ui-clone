@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowUp, CaretRight, DiamondsFour, Shield, Wallet } from "phosphor-react-native";
+import { ArrowDown, ArrowUp, DiamondsFour, Shield, Wallet } from "phosphor-react-native";
 import { View, StyleSheet, Text, FlatList } from "react-native";
 import { FontAwesome5 } from '@expo/vector-icons';
 

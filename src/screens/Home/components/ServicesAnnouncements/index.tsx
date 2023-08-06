@@ -1,5 +1,4 @@
-import { ArrowDown, ArrowUp, CaretRight, DiamondsFour, Shield, Wallet } from "phosphor-react-native";
-import { View, StyleSheet, Text, FlatList } from "react-native";
+import { View, Text, FlatList } from "react-native";
 import  stylesServices from "./styles"
 
 const data = [
