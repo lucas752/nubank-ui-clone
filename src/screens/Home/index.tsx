@@ -6,6 +6,7 @@ import { MyCards } from './components/MyCards';
 import { ServicesAnnouncements } from './components/ServicesAnnouncements';
 import { CreditCard } from './components/CreditCard';
 import { Loan } from './components/Loan';
+import { PaymentAssistant } from './components/PaymentAssistant';
 
 const data = [
   {
@@ -41,6 +42,7 @@ export function Home() {
           <ServicesAnnouncements/>
           <CreditCard/>
           <Loan/>
+          <PaymentAssistant/>
         </ScrollView>
     );
 }
