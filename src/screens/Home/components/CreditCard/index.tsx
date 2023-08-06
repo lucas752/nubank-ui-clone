@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     },
     creditCard: {
         width: '100%',
-        height: 127,
+        height: 157,
         paddingHorizontal: 15,
         paddingTop: 20,
         gap: 3,

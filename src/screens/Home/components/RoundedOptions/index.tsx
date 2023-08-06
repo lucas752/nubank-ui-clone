@@ -46,7 +46,6 @@ export function RoundedOptions() {
                 <Text style={styles.roundedOptionIconsText}>{item.item.subtitle}</Text>
             </View>
         )}>
-
         </FlatList>
       </View>
     );
